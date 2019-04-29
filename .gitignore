@@ -1,0 +1,56 @@
+＃この.gitignoreファイルはUnityプロジェクトディレクトリのルートに置かれるべきです
+
+/ [Ll] ibrary /
+/ [Tt] emp /
+/ [Oo] bj /
+/ [Bb] uild /
+/ [Bb] uilds /
+/ [Ll] ogs /
+
+＃資産メタデータを無視しない
+！/ [Aa] ssets / ** / *。meta
+
+＃アセットストアツールプラグインを無視したい場合は、この行のコメントを外してください。
+＃/ [Aa] ssets / AssetStoreTools *
+
+＃TextMesh Proファイル
+[Aa] ssets / TextMesh * Pro /
+
+＃Visual Studioのキャッシュディレクトリ
+.vs /
+
+＃Gradleキャッシュディレクトリ
+.gradle /
+
+＃自動生成されたVS / MD / Consuloソリューションとプロジェクトファイル
+ExportedObj /
+.consulo /
+* .csproj
+* .unityproj
+* .sln
+* .suo
+* .tmp
+*。ユーザー
+* .userprefs
+* .pidb
+* .booproj
+* .svd
+* .pdb
+* .mdb
+* .opendb
+* .VC.db
+
+＃Unity3Dが生成したメタファイル
+* .pidb.meta
+* .pdb.meta
+* .mdb.meta
+
+＃Unity3Dはクラッシュレポートにファイルを生成しました
+sysinfo.txt
+
+＃ビルド
+* .apk
+* .unitypackage
+
+＃クラッシュリスティック生成ファイル
+crashlytics-build.properties
