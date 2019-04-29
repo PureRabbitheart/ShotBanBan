@@ -1,4 +1,4 @@
-”‚±‚Ì.gitignoreƒtƒ@ƒCƒ‹‚ÍUnityƒvƒƒWƒFƒNƒgƒfƒBƒŒƒNƒgƒŠ‚Ìƒ‹[ƒg‚É’u‚©‚ê‚é‚×‚«‚Å‚·
+ï»¿ï¼ƒã“ã®.gitignoreãƒ•ã‚¡ã‚¤ãƒ«ã¯Unityãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã®ãƒ«ãƒ¼ãƒˆã«ç½®ã‹ã‚Œã‚‹ã¹ãã§ã™
 
 / [Ll] ibrary /
 / [Tt] emp /
@@ -7,22 +7,22 @@
 / [Bb] uilds /
 / [Ll] ogs /
 
-”Ž‘ŽYƒƒ^ƒf[ƒ^‚ð–³Ž‹‚µ‚È‚¢
-I/ [Aa] ssets / ** / *Bmeta
+ï¼ƒè³‡ç”£ãƒ¡ã‚¿ãƒ‡ãƒ¼ã‚¿ã‚’ç„¡è¦–ã—ãªã„
+ï¼/ [Aa] ssets / ** / *ã€‚meta
 
-”ƒAƒZƒbƒgƒXƒgƒAƒc[ƒ‹ƒvƒ‰ƒOƒCƒ“‚ð–³Ž‹‚µ‚½‚¢ê‡‚ÍA‚±‚Ìs‚ÌƒRƒƒ“ƒg‚ðŠO‚µ‚Ä‚­‚¾‚³‚¢B
-”/ [Aa] ssets / AssetStoreTools *
+ï¼ƒã‚¢ã‚»ãƒƒãƒˆã‚¹ãƒˆã‚¢ãƒ„ãƒ¼ãƒ«ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’ç„¡è¦–ã—ãŸã„å ´åˆã¯ã€ã“ã®è¡Œã®ã‚³ãƒ¡ãƒ³ãƒˆã‚’å¤–ã—ã¦ãã ã•ã„ã€‚
+ï¼ƒ/ [Aa] ssets / AssetStoreTools *
 
-”TextMesh Proƒtƒ@ƒCƒ‹
+ï¼ƒTextMesh Proãƒ•ã‚¡ã‚¤ãƒ«
 [Aa] ssets / TextMesh * Pro /
 
-”Visual Studio‚ÌƒLƒƒƒbƒVƒ…ƒfƒBƒŒƒNƒgƒŠ
+ï¼ƒVisual Studioã®ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
 .vs /
 
-”GradleƒLƒƒƒbƒVƒ…ƒfƒBƒŒƒNƒgƒŠ
+ï¼ƒGradleã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒª
 .gradle /
 
-”Ž©“®¶¬‚³‚ê‚½VS / MD / Consuloƒ\ƒŠƒ…[ƒVƒ‡ƒ“‚ÆƒvƒƒWƒFƒNƒgƒtƒ@ƒCƒ‹
+ï¼ƒè‡ªå‹•ç”Ÿæˆã•ã‚ŒãŸVS / MD / Consuloã‚½ãƒªãƒ¥ãƒ¼ã‚·ãƒ§ãƒ³ã¨ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆãƒ•ã‚¡ã‚¤ãƒ«
 ExportedObj /
 .consulo /
 * .csproj
@@ -30,7 +30,7 @@ ExportedObj /
 * .sln
 * .suo
 * .tmp
-*Bƒ†[ƒU[
+*ã€‚ãƒ¦ãƒ¼ã‚¶ãƒ¼
 * .userprefs
 * .pidb
 * .booproj
@@ -40,17 +40,17 @@ ExportedObj /
 * .opendb
 * .VC.db
 
-”Unity3D‚ª¶¬‚µ‚½ƒƒ^ƒtƒ@ƒCƒ‹
+ï¼ƒUnity3DãŒç”Ÿæˆã—ãŸãƒ¡ã‚¿ãƒ•ã‚¡ã‚¤ãƒ«
 * .pidb.meta
 * .pdb.meta
 * .mdb.meta
 
-”Unity3D‚ÍƒNƒ‰ƒbƒVƒ…ƒŒƒ|[ƒg‚Éƒtƒ@ƒCƒ‹‚ð¶¬‚µ‚Ü‚µ‚½
+ï¼ƒUnity3Dã¯ã‚¯ãƒ©ãƒƒã‚·ãƒ¥ãƒ¬ãƒãƒ¼ãƒˆã«ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç”Ÿæˆã—ã¾ã—ãŸ
 sysinfo.txt
 
-”ƒrƒ‹ƒh
+ï¼ƒãƒ“ãƒ«ãƒ‰
 * .apk
 * .unitypackage
 
-”ƒNƒ‰ƒbƒVƒ…ƒŠƒXƒeƒBƒbƒN¶¬ƒtƒ@ƒCƒ‹
+ï¼ƒã‚¯ãƒ©ãƒƒã‚·ãƒ¥ãƒªã‚¹ãƒ†ã‚£ãƒƒã‚¯ç”Ÿæˆãƒ•ã‚¡ã‚¤ãƒ«
 crashlytics-build.properties
