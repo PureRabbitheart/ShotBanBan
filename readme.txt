@@ -16,6 +16,7 @@
 ・int型の定義 単語の頭文字は小文字　2単語目からは大文字　 例…valueNumber
 ・flout型の定義 頭文字に『f』を付けてください　例…fNumber
 ・string型の定義　頭文字に『str』とつける　例…strName
+・bool型の定義　頭文字に『is』を付ける　例…isFlg
 ・定数はすべて大文字で単語ごとに『_』を付ける　例…FULL_NAME = "あいうえお";
 
 ・基本的にいじられたくない変数や関数はprivateにしてください
