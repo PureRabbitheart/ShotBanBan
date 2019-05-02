@@ -33,9 +33,10 @@ public class BulletManager : GunBasic
     */
     void Update()
     {
-       Recast();
-       Shot(Input.GetKeyDown(KeyCode.Space));
-  
+       Recast();//発射間隔
+       Shot(Input.GetKeyDown("joystick button 0"));//Aボタンで発射
+       Shot(Input.GetKeyDown(KeyCode.Space));//Spaceで発射
+       Reload();
     }
 
 

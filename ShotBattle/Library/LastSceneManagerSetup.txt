@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Model.unity
+=======
+- path: Assets/Scenes/Dvl.unity
+>>>>>>> origin/Hero_MoveAtk
   isLoaded: 1
   isActive: 1
   isSubScene: 0
