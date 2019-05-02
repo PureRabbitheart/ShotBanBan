@@ -16,16 +16,12 @@ public class HeroMove : MonoBehaviour
     
     [SerializeField]
     private Vector3 vMoveSpeed; //動く速さ
-
     [SerializeField]
-    private GameObject Hero; //Player
-
-    [SerializeField]
-    private float fwidth; //横移動の制限   
-
+    private float fwidth; //横移動の制限
     [SerializeField]
     private float fvertical; //縦移動の制限
-
+    [SerializeField]
+    private GameObject Hero; //Player
 
     // Update is called once per frame
     void Update()
@@ -38,7 +34,6 @@ public class HeroMove : MonoBehaviour
 
     void clamp()　//移動制限
     {
-        // Hero.transform.position = (new Vector3(Mathf.Clamp(Hero.transform.position.x, fMax_x, fMin_x), transform.position.y, Mathf.Clamp(Hero.transform.position.z, fMax_z, fMin_z)));
         Hero.transform.position = (new Vector3(Mathf.Clamp(Hero.transform.position.x, -fwidth, fwidth), transform.position.y, Mathf.Clamp(Hero.transform.position.z, -fvertical, fvertical)));
     }
 
@@ -51,7 +46,32 @@ public class HeroMove : MonoBehaviour
         {
             Hero.transform.Translate(vMvSpd.x * flsh,0, vMvSpd.y * flsv);
         }
+
+
+        //PC操作用
+        if (Input.GetKey(KeyCode.A))
+        {
+            Hero.transform.Translate(-vMoveSpeed.x,0,0); 
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            Hero.transform.Translate(vMoveSpeed.x, 0, 0);
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            Hero.transform.Translate(0, 0, vMoveSpeed.z);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            Hero.transform.Translate(0, 0, -vMoveSpeed.z);
+        }
+
+
+
     }
+
+
+　　
 
 
 
