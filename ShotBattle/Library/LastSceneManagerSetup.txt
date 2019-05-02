@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Attack.unity
+- path: Assets/Scenes/Dvl.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

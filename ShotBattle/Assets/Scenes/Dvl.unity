@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 742943019}
   - component: {fileID: 742943018}
   - component: {fileID: 742943017}
+  - component: {fileID: 742943021}
   - component: {fileID: 742943016}
   m_Layer: 0
   m_Name: Cube
@@ -243,7 +244,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92c9b937e0983ba43b602b1be2d938ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmvSpd: 0.5
+  vMoveSpeed: {x: 1, y: 1, z: 1}
+  Hero: {fileID: 742943015}
+  fwidth: 5
+  fvertical: 10
 --- !u!65 &742943017
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -316,6 +320,44 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &742943021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742943015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fe537b64e5da254798a6cf98f00ce25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fFireRate: 0
+  fSpread: 0
+  fRange: 0
+  fDamage: 0
+  fBulletSpeed: 10
+  fReloadTime: 0
+  clipSize: 500
+  ammoMax: 500
+  ammoUsep: 1
+  shotPerRound: 1
+  ammo: 0
+  ammoHave: 0
+  isShell: 0
+  isHitScan: 0
+  isShotSE: 0
+  Bullet: {fileID: 8664517759316653272, guid: 91f5eb399fb736a48ac218877f5beec9, type: 3}
+  Shell: {fileID: 0}
+  MuzzleFX: {fileID: 0}
+  tShellOuter: {fileID: 0}
+  tMuzzle: {fileID: 742943020}
+  tStartRay: {fileID: 0}
+  ShotSE: {fileID: 0}
+  ShotEndSE: {fileID: 0}
+  eShotType: 0
+  isEnemy: 0
+  isEnemyShot: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,10 +434,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
